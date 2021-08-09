@@ -1,0 +1,7 @@
+/.bundle/gems/
+/.bundle/bin/
+/Gemfile.lock
+*.html
+.lsp/
+.cpcache/
+.socket-port

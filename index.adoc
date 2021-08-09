@@ -1,0 +1,25 @@
+= Getting started with the command line and Bash
+:title-separator: {sp}|
+:!sectids:
+:imagesdir: images
+:icons: font
+:source-highlighter: highlightjs
+:revealjs_customtheme: styles/djy.css
+:revealjs_transition: none
+:revealjs_transitionSpeed: fast
+:revealjs_controls: false
+:revealjs_progress: false
+:highlightjs-theme: styles/gruvbox-dark.css
+
+[.notes]
+--
+* Introduction
+** 1 minute
+** TODO
+--
+
+image:title-slide.png[]
+
+== !
+
+TODO
