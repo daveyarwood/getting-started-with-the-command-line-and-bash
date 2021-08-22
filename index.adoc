@@ -27,6 +27,11 @@ image:bash-logo.png[300,300]
 
 == Why use the command line?
 
+[.notes]
+--
+* 2 minutes
+--
+
 [%step]
 * Greater control over your OS and applications
 * Often faster than using a graphical interface
@@ -34,20 +39,78 @@ image:bash-logo.png[300,300]
 
 == Quick note about Windows
 
+[.notes]
+--
+* 2 minutes
+--
+
 * cmd.exe and Powershell not covered here
 * ...but you can use Windows Subsystem for Linux (WSL)
 
 == Let's type some commands!
 
+[.notes]
+--
+* 2 minutes
+--
+
 image:first-few-commands.png[]
 
 == Some useful shortcuts
 
+[.notes]
+--
+* 7 minutes
+--
+
 * *Up / Down*: go backward/forward in history
+* *Tab*: auto-complete commands / file names (super useful!)
 * *Ctrl+C*: interrupt the current command
 * *Ctrl+D*: exit the terminal
 * *Ctrl+L*: clear the screen
+* *Ctrl+W*: delete last word
 * *Ctrl+A*: jump to beginning of line
 * *Ctrl+E*: jump to end of line
-* *Ctrl-U*: delete before cursor
-* *Ctrl-K*: delete after cursor
+* *Ctrl+U*: delete before cursor
+* *Ctrl+K*: delete after cursor
+
+== Files and directories
+
+[.notes]
+--
+* 10 minutes
+--
+
+* *pwd* - print working directory
+* *cd* - change directory
+* *ls* - list files in directory
+* *find* - search for files
+
+== Halfway point
+
+[.notes]
+--
+* 5 minutes
+--
+
+Questions so far?
+
+== Let's write a script!
+
+[.notes]
+--
+* Free form, use whatever time is remaining, be interactive
+* Start by showing how to create and run a script
+** `chmod +x`, `./my-script`, etc.
+* Talk about shebang line
+* Put a few commands like `hostname`, `whoami`, `date` on separate lines
+* Interpolation, subshells
+* Script idea: status checker for the Kevel website
+** Start with basic `curl https://kevel.co`
+** `-L` to follow redirects
+** `-w "%{http_code}"` to just print 200
+** `echo -n "Kevel website status: "`
+** Run it in a loop in the shell, then put the loop in the script
+--
+
+image:typewriter.jpg[]
