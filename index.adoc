@@ -15,11 +15,39 @@
 --
 * Introduction
 ** 1 minute
-** TODO
+** My goal with this is to share with you some of the basics of using the
+   terminal on your computer, so that perhaps we can bring everybody here just a
+   little bit closer to the level of command line wizardry that our engineers
+   have.
 --
 
-image:title-slide.png[]
+image:bash-logo.png[300,300]
 
-== !
+<- Bash logo
 
-TODO
+== Why use the command line?
+
+[%step]
+* Greater control over your OS and applications
+* Often faster than using a graphical interface
+* Automate _all of the things_
+
+== Quick note about Windows
+
+* cmd.exe and Powershell not covered here
+* ...but you can use Windows Subsystem for Linux (WSL)
+
+== Let's type some commands!
+
+image:first-few-commands.png[]
+
+== Some useful shortcuts
+
+* *Up / Down*: go backward/forward in history
+* *Ctrl+C*: interrupt the current command
+* *Ctrl+D*: exit the terminal
+* *Ctrl+L*: clear the screen
+* *Ctrl+A*: jump to beginning of line
+* *Ctrl+E*: jump to end of line
+* *Ctrl-U*: delete before cursor
+* *Ctrl-K*: delete after cursor
