@@ -86,15 +86,6 @@ image:first-few-commands.png[]
 * *ls* - list files in directory
 * *find* - search for files
 
-== Halfway point
-
-[.notes]
---
-* 5 minutes
---
-
-Questions so far?
-
 == Let's write a script!
 
 [.notes]
